@@ -1,0 +1,25 @@
+{
+  "name": "proejto-npm",
+  "version": "1.0.0",
+  "description": "Projeto node, utilizando o npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsalencar/Projeto-NPM.git"
+  },
+  "keywords": [
+    "npm",
+    "jode",
+    "first",
+    "git"
+  ],
+  "author": "Felipe Alencar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fsalencar/Projeto-NPM/issues"
+  },
+  "homepage": "https://github.com/fsalencar/Projeto-NPM#readme"
+}
