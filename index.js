@@ -1,7 +1,7 @@
 'use strict';
 
 const http = require('http'),
-	hostname = '127.0.0.1',
+
 	port = 1234;
 
 const server = http.createServer((req, res)=>{
@@ -10,6 +10,6 @@ const server = http.createServer((req, res)=>{
   res.end('Teste do nodE');
 });
 
-server.listen(port, hostname,()=>{
+server.listen(port, ()=>{
   console.log(`Server running at http://${hostname}:${port}/`);
 });
